@@ -1,0 +1,432 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =============================== * navbar * ==================================== */
+
+.header{
+	background-color: #f7f8f9;
+	box-shadow: 0 0 2px grey;
+	position: sticky;
+	top: 0%;
+	
+}
+
+.navbar{
+	
+	align-items: center;
+	width: 1300px;
+	margin: auto;
+}
+.nav1{
+	display: flex;
+	align-items: center;
+	width: 1300px;
+	
+}
+.nav{
+	display: flex;
+	background: #f7f8f8;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+    margin: -4px;
+    margin-top: -6px;
+	
+}
+.img{
+padding-left: 90px;
+padding-top: 2px;
+align-items: center;
+
+}
+#mot, #prop{
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+		
+
+}
+#mot:hover, #prop:hover, .img:hover{
+	color: blue;
+}
+
+.nav1 img{
+	width: 70px;
+}
+.country_select{
+	width: 250px;
+	margin-left: 70px;
+}
+.select i{
+	font-size: 15px;
+	transition: all 0.3s;
+}
+.select{
+	width: 100%;
+	padding: 10px 10px;
+	background-color:rgba(255, 255, 255, 0.7);
+	border-radius: 6px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 2px solid black;
+}
+.option{
+	display: flex;
+	padding: 10px;
+	width: 250px;
+	cursor: pointer;
+}
+.option:hover{
+	background-color: #c7dcff;
+}
+.option p{
+	margin-left: 10px;
+	color: #444444;
+}
+.option i{
+	color: #839a9c;
+}
+.option_box{
+	box-shadow: 0 0 10px grey;
+	background-color: white;
+	display: none;
+	position: absolute;
+	top: 90%;
+}
+.hidden{
+	display: block;
+}
+.rotate{
+	transform: rotate(180deg);
+}
+
+.searchbox{
+	display: flex;
+	margin-left: 30px;
+}
+.searchbox i{
+	background-color: black;
+	color: white;
+	padding: 14px;
+	font-size: 15px;
+	border-radius: 0 6px 6px 0;
+	cursor: pointer;
+}
+.searchclass{
+	padding: 10px;
+	width: 400px;
+	font-size: 15px;
+	border-radius: 6px 0 0 6px;
+	border: 2px solid black;
+}
+
+
+.message i{
+	font-size: 22px;
+	color: black;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+
+.profile img{
+	width: 40px;
+	border-radius: 60%;
+	cursor: pointer;
+	margin-left: 55px;
+}
+
+.nameimg img{
+	width: 65px;
+	border-radius: 50%;
+}
+.nameimg p{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.dropdown a{
+		
+	text-decoration: none;
+	color: black;
+
+}
+.nameimg{
+	display: flex;
+	align-items: center;
+	margin: 10px 0 20px 0;
+}
+.dropdown{
+	width: 250px;
+	box-shadow: 0 0 10px grey;
+	padding: 15px;
+	background-color: white;
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+.dropdown ul li{
+	display: flex;
+	padding: 10px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.dropdown ul li:hover{
+	background-color: #c7dcff;
+}
+.dropdown ul{
+	margin-top: 20px;
+}
+.dropdown ul li i{
+	color: black;
+	font-size: 17px;
+}
+.dropdown ul li p{
+	margin-left: 10px;
+	font-size: 17px;
+}
+.displaydropdown{
+	display: block;
+}
+
+
+.selling button{
+	margin-left: 30px;
+	border-style: solid;
+	border-width: 5px;
+	border-top-color: #23e5db;
+	border-left-color: #ffce32;
+	border-right-color: #3a77ff;
+	border-bottom-color: #3a77ff;
+	font-size: 15px;
+	cursor: pointer;
+	padding: 6px 12px;
+	border-radius: 30px;
+	background-color: white;
+	color: black;
+	display: flex;
+}
+.selling a{
+	text-decoration: none;
+}
+
+/* =============================== * Category* ==================================== */
+
+
+#Catagory{
+	border: none;
+   font-size: 16px;
+   padding: 9px ;
+   cursor: pointer;
+   margin-top: 4px;
+   margin-right: 10px;
+   font-weight: bold;
+
+}
+.two{
+	background-color: white;
+	border-block: 1px solid black;
+	padding: 20px;
+}
+.twod{
+	
+	align-items: center;
+	width: 1300px;
+	margin: auto;
+}
+
+.twod a{
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+	text-align: justify-all;
+}
+.twod a:hover{
+	color: blue;
+} 
+
+#carcats, #booky, #animl, #furn, #busin, #Mobiles, #propy{
+	display: none;
+}
+/* =============================== * Add 1 * ==================================== */
+
+.addimg img{
+	width: 800px;
+	position: relative;
+	z-index: -1;
+	
+}
+.addimg{
+	width: 800px;
+	margin: auto;
+	margin-top: 35px;
+	height: 200px;
+	position: relative;
+}
+.addimg i{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	
+	cursor: pointer;
+}
+
+/* =============================== * Products * ==================================== */
+
+
+.first_row{
+	display: flex;
+	justify-content: space-evenly;
+	width: 1200px;
+	margin: auto;
+	margin-top: 5px;
+}
+.first_row a{
+	text-decoration: none;
+	color: black;
+}
+.first_row a:hover{
+	color: black;
+}
+.first_row s:visit{
+	color: black;
+
+}
+.box img{
+	width: 100%;
+	align-items: center;
+	height: 160px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: black;
+}
+.box{
+	border: 1px solid rgb(197, 196, 196);
+	width: 260px;
+	height: 239px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+.box:hover{
+	border: 1px solid rgb(138, 137, 139);
+}
+.box a{
+	text-decoration: none;
+	color: black;
+}
+.box h2{
+	padding: 5px -1px 0 20px;
+	margin-bottom: 4px;
+}
+.box p{
+	padding: 0px -1px 10px 20px;
+	margin-bottom: 10px;
+	color: #6f8a94;
+	font-size: 16px;
+}
+.adress_data{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.adress_data p{
+	font-size: 11px;
+	margin-right: 11px;
+}
+
+/* =============================== * load more * ==================================== */
+
+.loadmore button{
+  margin: 50px auto;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  transition: all 0.5s;
+  border: 2px solid black;
+}
+.loadmore button:hover{
+	border: 4px solid black;
+}
+#lmproductid{
+	display: none;
+}
+
+/* =============================== * download* ==================================== */
+
+.downloadapp{
+	background-color: #f7f8f9;
+}
+.download{
+	margin: 100px 0 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.images{
+	width: 400px;
+}
+.text{
+	border-right: 2px solid #cacdce;
+}
+.text h1{
+	padding: 20px 20px 10px 20px;
+	font-size: 35px;
+}
+.text p{
+padding: 10px 20px 20px 20px;
+	font-size: 20px;
+}
+.downloadstore{
+	padding-left: 30px;
+}
+.downloadstore p{
+	padding: 20px 20px 20px 0;
+	font-weight: bold;
+	font-size: 17px;
+}
+.downloadstore img{
+	width: 140px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+
+/* =============================== * footer * ==================================== */
+
+.mainfooter{
+	background-color: #ebeeef;
+}
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1200px;
+	margin: auto;
+}
+.footer h2{
+	font-size: 17px;
+	margin: 10px 0 15px 0;
+	cursor: pointer;
+}
+.footer p{
+	margin: 8px 0 8px 0;
+	cursor: pointer;
+}
+.footerbox img{
+	width: 100px;
+	padding-left: 2px;
+	cursor: pointer;
+}
+.footerbox i{
+	padding-left:10px ;
+}

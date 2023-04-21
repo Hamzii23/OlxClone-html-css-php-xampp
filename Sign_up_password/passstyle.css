@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif, Helvetica;
+}
+.mainContainer{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 400px;
+    height: 539px;
+    border: 1px solid #dadce0;
+    border-radius: 7px;
+    position: relative;
+}
+.icondiv{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 400px;
+    height: 44px;
+}
+.emailcloss{
+    font-size:20px;
+    float: right;
+    padding-right: 13px;
+    padding-top: 5px;
+    color: rgba(0, 47, 52,0.64);
+    margin-top: 3px;
+    
+}
+.icondiv a{
+    text-decoration: none;
+}
+.secondconatier{
+    width: 368px;
+    height: 368px;
+    display: block;
+    box-sizing: border-box;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .imageText{
+    width: 48px;
+    height: 48px;
+ }
+ .imageText img{
+    width: 48px;
+    height: 42px;
+ }
+ /* Enter Your Email Span */
+ .textspan{
+    font-size: 19.1px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-size-adjust: 100%;
+    letter-spacing: normal;
+    width: 368px;
+    height: 59px;
+    text-align: center;
+    color: rgb(0, 47, 53);
+ } 
+ /* Third Div */
+ .thirddiv{
+    width: 368px;
+    height: 308px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .text1span{
+    
+    width: 357px;
+    height: 38px;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: normal;
+    margin-bottom: 24px;
+ }
+ /* fourdiv */
+ .fourdiv{
+    width: 368px;
+    height: 250;
+ }
+ /* fifthdiv */
+ .fifthDiv{
+    width: 331px;
+    height: 250px;
+    font-size: 14px;
+    text-align: left;
+    margin: 0px 18px;
+ }
+ /* Form  */
+ .passform{
+    width: 331px;
+    height: 208px;
+    margin-top: 16px;
+    text-align: left;
+ }
+ .pass_text_div{
+    width: 331px;
+    height: 80px;
+    text-align: left;
+ }
+ .pass_div{
+    width: 325px;
+    height: 45px;
+    font-size: 14px;
+    display: flex;
+ }
+ .passinput{
+    width: 313px;
+    height: 45;
+    margin-left: 12px;
+    font-size: 14px;
+    padding-left: 5px;
+    border-radius: 3px;
+ }
+ .error-span_class{
+    width: 325px;
+    height: 21px;
+    margin-top: 2px;
+    display: flex;
+    margin-bottom: 6px;
+    
+ }
+ .span_error1{
+    width: 121px;
+    height: 21px;
+    text-align: left;
+    padding-left: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+ }
+ .span_error2{
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    
+ }
+ /* Confrim Password  */
+ .Re_passinput{
+    width: 313px;
+    height: 45;
+    margin-left: 12px;
+    font-size: 14px;
+    padding-left: 5px;
+    border-radius: 3px;
+ }
+ /* button  */
+ .button{
+    width: 313px;
+    height: 44px;
+    justify-content: center;
+    background-color: rgba(0, 47, 52);
+    border-radius: 4px;
+    border: none;
+    margin-left: 11px;
+    margin-top: 5px;
+ }
+ .button span{
+    font-size: 15.96px;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    color: white;
+ }
+ .last_span_class{
+    width: 320px;
+    height: 35px;
+    margin-left: 13px;
+ }
+ .last_span_class span{
+    width: 320px;
+    height: 35px;
+    font-size: 11px;
+    color: rgba(0, 47, 52,0.64);
+ }
+ .last_span_class a{
+    text-decoration: none;
+    color: rgb(58, 119, 255);
+ }
+ ::placeholder{
+   font-size: 15px;
+ }

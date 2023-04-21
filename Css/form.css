@@ -1,0 +1,148 @@
+.header{
+    background-color: #f7f8f9;
+    box-shadow: 0 0 2px grey;
+    position: sticky;
+    top: 0%;
+    
+}
+.navbar{
+     background: #f7f8f8;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin: -4px;
+    margin-top: -6px;
+}
+
+.post-ad{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 28px; 
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.outer-box{
+
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin: auto 50px;
+
+}
+.outer-box h2{
+   
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 28px; 
+    font-weight: 600; 
+    padding: 20px; 
+    margin: 0px;
+}
+.outer-box p{
+     border-bottom: 1px solid #999999; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    font-weight: 500; 
+    padding: 20px; 
+    margin: 0px;
+
+}
+
+
+.main-section1{
+    padding: 0px 30px;
+}
+.main-section1 input, textarea, select{
+
+    width: 100%;
+    border: 1px solid #999999;
+    padding: 20px 5px;
+
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.main-section1 .title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #292929;
+
+}
+
+.main-section1 .condition{
+    margin-top: 30px;
+    
+}
+.condition{
+    display: flex;
+}
+
+.condition input[type="radio"] {
+    /* Add if not using autoprefixer */
+    /* -webkit-appearance: none;
+    appearance: none; */
+    /* For iOS < 15 to remove gradient background */
+    /* Not removed via appearance */
+    margin: 0;
+    width: 10%;
+  }
+  
+/* .main-section1 .condition input[type="radio"]{
+    
+    border: 2.5px solid #999999;
+    padding: 20px 40px;
+    border-radius: 5px;
+    display: inline;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #292929;
+    font-weight: 500;
+    text-decoration: none;
+} */
+
+.main-section1 .condition a:hover{
+    background-color: rgb(88, 255, 255);
+
+}
+.main-section1 .uploadpic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 15px;
+}
+
+.main-section1 .uploadpic .upload{
+    padding: 20px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+.main-section1 .submit{
+    background-color: #002f34;
+    color: white;
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 3px;
+    border-color: transparent;
+    
+}
+
+.main-section1 .preview{
+    background-color: #002f3400;
+    color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 3px;
+    border-color: black;
+    
+}

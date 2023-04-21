@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+};
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif, Helvetica;
+    cursor: pointer;
+}
+body .container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 610px;
+    border: 1px solid #dadce0;
+    border-radius: 7px;
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: 10%;
+    box-sizing: border-box;
+
+}
+.container2{
+    width: 380px;
+    height: 500px;
+    display: block;
+    font-size: 14px;
+}
+.img{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+    margin-bottom: 20px;
+
+}
+.img img{
+    width: 230px;
+    height: 150px;
+    
+    
+}
+.closs_button{
+    width: 400px;
+    height: 44px;
+
+}
+.container2 .btn_div{
+    width: 368px;
+    height: 216px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2 .welcome{
+    font-size: 20px;
+    
+}
+.container2 .community{
+    font-size: 17px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    color: rgb(0, 47, 52);
+}
+.close {
+    font-size: 45px;
+    font-weight: 600;
+    transform: rotate(45deg);
+    float: right;
+    padding-right: 2px;
+    padding-top: 5px;
+   
+  }
+  .container.button_class{
+    width: 400px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: 400;
+    
+  }
+  .google_button:hover {border: 3px solid black;
+cursor: pointer;}
+  .container .button_class .google_button img{
+    width: 30px;
+    height: 20px;
+
+  }
+  .google_button{
+    margin-top: 5px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(0, 47, 52);
+    height: 45px;
+    width: 294px;
+    text-align: center;
+    background-color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  .google_button img{
+    padding-right: 30px;
+  }
+ 
+  .google_button i{
+    padding-right: 30px;
+  }
+  .google_button .span2{
+    padding-left: 0;
+  }
+  #facebook_button img{
+    padding-left: 19px;
+  }
+  .span3{
+    padding-right: 10px;
+  }
+  .text{
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    text-size-adjust: 100%;
+    padding-left: 20%;
+    padding-right: 23%;
+  }
+  .text span{
+    font-size: 14px;
+    
+  }
+  .text a{
+    text-decoration: none;
+    color: rgb(58, 119, 255);
+    
+  }

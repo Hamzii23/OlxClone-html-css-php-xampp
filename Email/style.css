@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif, Helvetica;
+}
+.mainContainer{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 400px;
+    height: 444px;
+    border: 1px solid #dadce0;
+    border-radius: 7px;
+    position: relative;
+}
+.icondiv{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 400px;
+    height: 44px;
+}
+.emailcloss{
+    font-size:20px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    
+}
+.icondiv a{
+    text-decoration: none;
+}
+ /* Second Conatainer  */
+ .secondconatier{
+    width: 368px;
+    height: 368px;
+    display: block;
+    box-sizing: border-box;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .imageText{
+    width: 48px;
+    height: 48px;
+ }
+ .imageText img{
+    width: 48px;
+    height: 46px;
+ }
+ /* Enter Your Email Span */
+ .textspan{
+    font-size: 19.1px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-size-adjust: 100%;
+    letter-spacing: normal;
+    width: 155px;
+    height: 27px;
+ } 
+ /* Email Form */
+ .emailform{
+    width: 368px;
+    height: 138px;
+    margin-top: 16px;
+ }
+ .inputdiv{
+    width: 366px;
+    height: 50px;
+    margin-bottom: 40px;
+ }
+ .inputdiv input{
+    width: 361px;
+    height: 45px;
+    padding-left: 5px;
+    font-size: 18px;
+    border-radius: 4px;
+ }
+ #emailinput :hover{
+   border: none;
+ }
+ 
+ ::placeholder{
+    font-size: 18px;
+ }
+ /* Button css */
+ .button{
+    width: 368px;
+    height: 48px;
+    justify-content: center;
+    background-color: rgba(0, 47, 52);
+    border-radius: 4px;
+    border: none;
+ }
+ .button span{
+    font-size: 15.96px;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    color: white;
+ }
+ .lastspan{
+    font-size: 12px;
+    color: rgba(0, 47, 52,0.64);
+    
+ }
+ .lastdiv{
+    width: 360px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin-left: 1px;
+    margin-top: 40px;
+    text-align: center;
+
+ }
